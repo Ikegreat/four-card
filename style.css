@@ -92,22 +92,37 @@ article {
 }
 .fourth {
     border-top: 5px solid hsl(212, 86%, 64%) ;
-} 
-@media (min-width:768px)  {
+}
+   @media (min-width:768px) {
+    .card {
+        width: 100%;
+    
+    }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: auto auto auto;
+        gap: 30px;
     }
-    #builder {
-        grid-area: 1/ 2 / 2/ 3;
+    #Builder {
+        grid-area: 1/2/3/3;
     }
-    #supervisor {
-        grid-area: 2 / 2 / 3 / 2;
+    #Supervisor {
+        grid-area: 2/1/4/2;
     }
-    #karma {
-        grid-area: 3 / 2 / 5 / 3;
+    #Karma {
+        grid-area: 3/2/5/3;
     }
     #Calculator {
-        grid-area: 2/ 3 / 2/ 2;
+        grid-area: 2/3/4/4;
     }
-}
+   }
+
+
+
+
+
+
+
+
+
+
