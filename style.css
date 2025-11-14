@@ -28,8 +28,8 @@ body {
     padding: 30px;
 }
 header {
-    line-height: 25px;
-    font-size: 24px;
+    line-height: 27px;
+    font-size: 26px;
     margin-bottom: 20px;
     color: hsl(234, 12%, 34%);
    
@@ -43,7 +43,7 @@ header {
 article {
     line-height: 16px;
     color: hsl(234, 12%, 34%);
-    font-size: 22px;
+    font-size: 25px;
 }
 #read-me {
     font-weight: 500;
@@ -61,15 +61,15 @@ article {
 }
 #card-header {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     color: hsl(234, 12%, 34%);
     margin-bottom: 15px;
 }
 #card-body {
     font-weight: 400;
-    line-height: 20px;
+    line-height: 22px;
     color: hsl(234, 12%, 34%);
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 .first {
@@ -115,6 +115,8 @@ article {
     #Calculator {
         grid-area: 2/3/4/4;
     }
+   
+        
    }
 
 
