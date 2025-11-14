@@ -24,6 +24,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.grid-container {
+    padding: 30px;
+}
 header {
     line-height: 25px;
     font-size: 24px;
@@ -89,4 +92,22 @@ article {
 }
 .fourth {
     border-top: 5px solid hsl(212, 86%, 64%) ;
+} 
+@media (min-width:768px)  {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #builder {
+        grid-area: 1/ 2 / 2/ 3;
+    }
+    #supervisor {
+        grid-area: 2 / 2 / 3 / 2;
+    }
+    #karma {
+        grid-area: 3 / 2 / 5 / 3;
+    }
+    #Calculator {
+        grid-area: 2/ 3 / 2/ 2;
+    }
 }
